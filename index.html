@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="img/food.png" alt="pagina de receitas" width=1500 height=500>
-
-    
+        
     <title>Página de Receitas</title>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
 </head>
 <body>
+    <img src="img/food.png" alt="pagina de receitas" width="100%">
     <button>Registrar </button>
     <button>Entrar</button>
     <h1>Delícias da Lilaah</h1>
     <div class="Buscar">
         <div class="search-box">
             <form method="post" action="#">
-                 <input type="text" class="caixa de texto" name="caixa de texto" placeholder="Faça sua Pesquisa">
-                <button class="Buscar">Buscar</button>
+                 <input type="text" class="caixa de texto" name="caixa de texto" placeholder="Faça sua Pesquisa" />
+                <!-- alterar classe do botao -->
+                 <button class="Buscar">Buscar</button>
             </form>
-            
         </div>
-    
     </div>
     <!-- o class precisa de ajuste pra ter uma unica ligação -->
     <nav class=" Barra de Navegação">
+        <!-- Abrir TAG UL <ul> -->
+            <!-- Abrir TAG LI <li> -->
+        <!-- Se quiser um do lado do outro é necessário remove as TAGS UL LI -->
             <a href="#inicio">Início</a></li>
-            <a href="#adicionar">Adicionar Receita</a></li>
+            <a href="add-receitas.html">Adicionar Receita</a></li>
         </ul>
     </nav>
 
     <h2>Destaques</h2>
     <ul>
+        <!-- Colocar em aspas o width e heigh -->
+        <!-- Color com porcentagem ou pixel -->
         <img src="img/torta salgada.jpg" alt="Torta Salgada" width=350 height=250>
         <li>
-             Torta Salgada <button class="ver-detalhes">Ver Detalhes</button>
-
+            Torta Salgada <button class="ver-detalhes">Ver Detalhes</button>
+        <!-- Falta fechar a TAG LI -->
+    <!-- Falta fechar a TAG UL -->
     
 
 </body>
